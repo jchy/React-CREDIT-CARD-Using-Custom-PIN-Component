@@ -6,7 +6,7 @@ export default function App() {
   const [state, setState] = useState("");
   return (
     <div className="App">
-      <h1>Custom Component</h1>
+      <h1>Credit Card</h1>
       <PinInput onChange={(pin) => setState(pin)} />
       <div>
         {state.length === 16 ? (
